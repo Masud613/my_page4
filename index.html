@@ -43,27 +43,42 @@
             line-height: 1.6;
         }
 
-        /* Customize the look of your unique design */
-        /* Add your own CSS styles here */
-
-        .your-picture {
-            max-width: 100%;
-            height: auto;
-        }
-
-        .contact-info {
-            font-size: 24px;
+        .box {
+            background-color: #333333;
+            padding: 20px;
+            border-radius: 10px;
             margin-top: 20px;
         }
 
-        .skills {
+        .box h2 {
+            font-size: 28px;
+            color: #4CAF50;
+        }
+
+        .box p {
             font-size: 20px;
-            margin-top: 20px;
         }
 
-        .certificates {
-            font-size: 20px;
-            margin-top: 20px;
+        nav {
+            background-color: #333333;
+            color: #FFFFFF;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #FFFFFF;
+            font-size: 18px;
         }
 
     </style>
@@ -73,76 +88,57 @@
         <h1>Welcome to Masud's world</h1>
         <p>"Embrace every opportunity as a challenge, for it is in the realm of challenges that intelligence finds its truest test and brilliance triumphs."</p>
     </header>
-    <div class="container">
-        <div class="unique-section">
-            <h2>About Me</h2>
-            <img class="your-picture" src="Weixin Image_20231003001243.jpg" alt="Your Picture">
-            <p>
-            <h2>Bio</h2>    
-                Hello, I'm MD MASUD PERVEZ PRINCE.Strong desire to build up a successful career by 
-                obtaining a challenging position in a reputed 
-                organization where I can apply my skills, knowledge 
-                and experience to enhance the organization’s success. 
-                And also improve my knowledge and 
-                experience. I'm a passionate Designer based in web world.My hobbi is Traveling,Reading,listening Music,And cooking. Writing based in Yinzhou District, Ningbo City, Zhejiang Province Yinzhou District, Ningbo City, Zhejiang Province
-                Ningbo Science and Technology Innovation Center of Zhejiang University (Ningbo Campus), East Gate, No.5 Xuefu Road, Yinzhou District, Ningbo. I love Rice,Beef,and Chicken and my favorite place is My campus(Zhejiang University),Classroom,My reading table.
-            </p>
-            <div class="contact-info">
-                <h3>Contact Me</h3>
-                <p>Phone: +8613078796390</p>
-                <p>Email: md.masudpervej74@gmail.com</p>
-                <h3>Social media</h3>
-                <P>FACEBOOK: Masud pervej</P>
-                <p>INSTAGRAM: masud_pervez_prince</p>
-            </div>
-            <div class="skills">
-                <h3>Skills</h3>
-                <p>
-                    I have expertise in the following skills:
-                    <ul>
-                        <li>Computer Skills:
-                            MS. Word, MS. Excel, MS Power Point, Internet Browsing, 
-                            Electrical Drawing, Auto CAD, Photoshop etc.</li>
-                        <li>Language Skills:
-                            Bengali:Mother tongue
-                            English:Speaking, Listening, Reading and Writing
-                            </li>
-                        <h2>EXPERIENCE</h2>
-                        Organization: Toma Construction & Co. Ltd.
-                         Designation: Sub Assistant Engineer
-                            Duration: 1 Year 8 Months
-                        Organization:New Power Electric, Nawabpur
-                         Designation:Technician
-                            Duration:7 months
-                        Organization:Rainbow Automation
-                         Designation:Technician (Trainee)
-                            Duration:3 months
-                        <!-- Add more skills as needed -->
-                    </ul>
-                </p>
-            </div>
-            <div class="EDUCATION">
-                <h3>Certifications</h3>
-                <p>
-                 
-                    <ul>
-                        <li>Bachelor of Science (B.Sc): Institute: Yunnan University (China)
 
-                                                         Subject: Electronic Information Engineering
-                                                         
-                                                         Session: 2019-2020</li>
-                        <li>Diploma in Engineering: Institute: Dinajpur Institute of science and technology
-                                                   Technology: Electrical
-                                                      Session: 2012-2013</li>
-                        <!-- Add more certificates as needed -->
-                    </ul>
-                </p>
-            </div>
-        </div>
-        <div class="unique-section">
-            <h2>Favorite Work</h2>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact Information</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="unique-section" id="About">
+            <h2>About Me</h2>
+            <img class="your-picture" src="Weixin Image_20231003001243.jpg" alt="Your Picture" height="500px">
             <p>
-                My favorite work is "As the chapters of life unfold,my passions, like constellations in the night sky, guide my through the vast cosmos of experiences. Each endeavor, a brushstroke on the canvas of my existence, paints a portrait of a soul unafraid to embrace the beauty of curiosity, creation, and the ever-enticing unknown. In this wondrous symphony of my favorite activities, I compose the melody of a life uniquely my, harmonizing with the rhythms of the universe.". It reflects my passion and creativity.
+                Hello, I'm MD MASUD PERVEZ PRINCE. I have a strong desire to build up a successful career by obtaining a challenging position in a reputed organization where I can apply my skills, knowledge, and experience to enhance the organization’s success. I'm a passionate Designer based in the web world. My hobbies include traveling, reading, listening to music, and cooking. I'm currently located in Yinzhou District, Ningbo City, Zhejiang Province. My favorite foods are Rice, Beef, and Chicken, and my favorite place is my campus (Zhejiang University), classroom, and my reading table.
+            </p>
+        </div>
+        <div class="box" id="Contact Information">
+            <h2>Contact Information</h2>
+            <!-- <p>Phone: +8613078796390</p> -->
+            <p>md.masudpervej74@gmail.com</p>
+        </div>
+        <div class="box" id="skills">
+            <h2>Skills</h2>
+            <p>
+                I have expertise in the following skills:
+                <ul>
+                    <li>Computer Skills:
+                        MS Word, MS Excel, MS PowerPoint, Internet Browsing, Electrical Drawing, Auto CAD, Photoshop, etc.</li>
+                    <li>Language Skills:
+                        - Bengali: Mother tongue
+                        - English: Speaking, Listening, Reading, and Writing
+                    </li>
+                </ul>
+            </p>
+        </div>
+        <div class="box" id="Certifications">
+            <h2>Certifications</h2>
+            <p>
+                <ul>
+                    <li>Bachelor of Science (B.Sc):
+                        - Institute: Yunnan University (China)
+                        - Subject: Electronic Information Engineering
+                        - Session: 2019-2020
+                    </li>
+                    <li>Diploma in Engineering:
+                        - Institute: Dinajpur Institute of Science and Technology
+                        - Technology: Electrical
+                        - Session: 2012-2013
+                    </li>
+                </ul>
             </p>
         </div>
     </div>
